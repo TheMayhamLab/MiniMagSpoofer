@@ -1,0 +1,30 @@
+
+- Load a new boot loader
+
+Make the following connections from the board to the BusPirate
+
+   G --> Connect to ground
+  RS --> Connect to reset
+  VC --> Connect to power
+  TX -->
+  RX -->
+ ANT -->
+ ANT -->
+ SCK --> Connect 
+MISO --> Connect 
+MOSI --> Connect 
+  A1 -->
+
+Select board "SparkFun Pro Micro"
+Select processor "ATmega32U4 (5V 16 MHz)"
+Select the correct port
+Select programmer "BusPirate as ISP"
+Click "Burn Bootloader"
+
+
+
+- Disconnect the BusPirate
+- Connect the Arduino to the USB
+- Load the "MiniMagSpoofer.ino" sketch
+- Connect to Bluetooth
+- Open the serial port and use the menu to initialize EEPROM
